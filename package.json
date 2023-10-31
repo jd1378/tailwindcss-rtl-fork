@@ -1,6 +1,6 @@
 {
   "name": "@jd1378/tailwindcss-rtl",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "main": "src/index.js",
   "repository": "https://github.com/jd1378/tailwindcss-rtl-fork",
   "scripts": {
