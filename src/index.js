@@ -11,6 +11,7 @@ const textAlignUtilities = require("./textAlignUtilities");
 const transformOriginUtilities = require("./transformOriginUtilities");
 const spaceUtilities = require("./spaceUtilities");
 const divideUtilities = require("./divideUtilities");
+const backgroundAlignUtilities = require('./backgroundAlignUtilities');
 
 module.exports = plugin((helpers) => {
   const { addUtilities, matchUtilities, theme, variants } = helpers;
@@ -25,4 +26,5 @@ module.exports = plugin((helpers) => {
   addUtilities(transformOriginUtilities(), variants("transformOrigin"));
   spaceUtilities(helpers);
   divideUtilities(helpers);
+  addUtilities(backgroundAlignUtilities(), variants('backgroundPosition'));
 });
