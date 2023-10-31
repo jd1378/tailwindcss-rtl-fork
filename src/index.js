@@ -10,7 +10,6 @@ const backgroundAlignUtilities = require('./backgroundAlignUtilities');
 
 module.exports = plugin((helpers) => {
   const { addUtilities, variants } = helpers; 
-  borderRadiusUtilities(helpers);
   addUtilities(clearUtilities(helpers), variants("clear"));
   addUtilities(floatUtilities(helpers), variants("float")); 
   addUtilities(textAlignUtilities(helpers), variants("textAlign"));
