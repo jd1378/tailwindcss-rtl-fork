@@ -7,9 +7,9 @@ const rules = {
   "ms-[JIT_VALUE]": `.ms-\\[JIT_VALUE\\] { margin-inline-start: JIT VALUE }`,
   "me-[JIT_VALUE]": `.me-\\[JIT_VALUE\\] { margin-inline-end: JIT VALUE }`,
   "start-[JIT_VALUE]": `[dir="rtl"] .start-\\[JIT_VALUE\\] { right: JIT VALUE }
-  [dir="left"] .start-\\[JIT_VALUE\\] { left: JIT VALUE }`,
+  [dir="ltr"] .start-\\[JIT_VALUE\\] { left: JIT VALUE }`,
   "end-[JIT_VALUE]": `[dir="rtl"] .end-\\[JIT_VALUE\\] { left: JIT VALUE }
-[dir="left"] .end-\\[JIT_VALUE\\] { right: JIT VALUE }`,
+[dir="ltr"] .end-\\[JIT_VALUE\\] { right: JIT VALUE }`,
   "border-s-[JIT_VALUE]":
     ".border-s-\\[JIT_VALUE\\] { border-inline-start-width: JIT VALUE }",
   "border-e-[JIT_VALUE]":
